@@ -8359,6 +8359,109 @@ textarea.form-control {
     margin-bottom: -1px;
 }
 
+/* Slider */
+.slick-slider {
+    position: relative;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-track:before, .slick-track:after {
+    content: "";
+    display: table;
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+}
+
+[dir="rtl"] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
 h4 {
     background: #5A598E;
     color: #ffd9a6;
@@ -8383,6 +8486,92 @@ h4 {
     border-top: 1px solid #5A598E;
     margin-top: -8px;
     margin-bottom: .5rem;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'icomoon';
+  src: url("../fonts/fonts/icomoon.eot?mn7j01");
+  src: url("../fonts/fonts/icomoon.eot?mn7j01#iefix") format("embedded-opentype"), url("../fonts/fonts/icomoon.ttf?mn7j01") format("truetype"), url("../fonts/fonts/icomoon.woff?mn7j01") format("woff"), url("../fonts/fonts/icomoon.svg?mn7j01#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-social-media:before {
+    content: "\e903";
+}
+
+.icon-instagram:before {
+    content: "\e904";
+}
+
+.icon-1051360:before {
+    content: "\e905";
+}
+
+.icon-Group-157:before {
+    content: "\e906";
+}
+
+.icon-next:before {
+    content: "\e901";
+    color: #5a598e;
+}
+
+.icon-prew:before {
+    content: "\e902";
+    color: #5a598e;
+}
+
+.icon-ukraina_gerb:before {
+    content: "\e900";
+    color: #5a598e;
+}
+
+.slick-track {
+    margin-left: 0;
+}
+
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.slick-slider .slick-list div,
+  .slick-slider .slick-track div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.slick-slider .prev:before {
+    font-family: 'icomoon';
+    content: '\e902';
+    color: #5A598E;
+}
+
+.slick-slider .next:before {
+    font-family: 'icomoon';
+    content: '\e901';
+    color: #5A598E;
 }
 
 @media (max-width: 1400px) {
@@ -8418,12 +8607,49 @@ h4 {
         margin-bottom: 1rem;
         overflow: hidden;
     }
+
+    .btn-1,
+  .btn-2 {
+        font-size: 16px !important;
+    }
+
+    ul li {
+        text-align: center !important;
+    }
+
+    ul li a {
+        text-align: center;
+    }
 }
 
 @media (max-width: 545px) {
     .main__center {
         min-height: 80vw;
         margin-bottom: 1rem;
+    }
+
+    .can .slider p {
+        font-size: 15px !important;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer ul {
+        padding: 0;
+    }
+
+    footer ul li {
+        text-align: center !important;
+    }
+
+    footer ul li a {
+        text-align: center;
+    }
+
+    footer .logo-footer {
+        max-width: 94px !important;
     }
 }
 
@@ -8440,6 +8666,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.slick-track {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .navbar a {
@@ -8549,4 +8781,75 @@ header .btn-2 {
 .main__center .s-box a {
     color: #fff;
     font-size: 25px;
+}
+
+.can .slider {
+    position: relative;
+}
+
+.can .slider .box {
+    border: 1px solid red;
+}
+
+.can .slider__box {
+    border: 1px solid #ccc;
+}
+
+.can .slider__box i {
+    font-size: 45px;
+}
+
+.can .slider .next {
+    position: absolute;
+    right: 0;
+    top: -40px;
+}
+
+.can .slider .next:hover {
+    cursor: pointer;
+}
+
+.can .slider .prev {
+    position: absolute;
+    right: 30px;
+    top: -40px;
+    opacity: 0.5;
+}
+
+.can .slider .prev:hover {
+    cursor: pointer;
+}
+
+.can .slider p {
+    font-size: 16px;
+}
+
+footer {
+    background: #000;
+}
+
+footer .logo-footer {
+    max-width: 160px;
+}
+
+footer ul li {
+    list-style: none;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.1;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
+
+footer i {
+    color: #fff !important;
+    font-size: 30px;
 }
