@@ -8581,6 +8581,14 @@ h4 {
 }
 
 @media (max-width: 1000px) {
+    header {
+        background-image: url(../i/small-01.jpg) !important;
+    }
+
+    .main__center {
+        background-image: url(../i/small-02.jpg) !important;
+    }
+
     body {
         font-size: 15px !important;
     }
@@ -8666,6 +8674,17 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+img {
+    opacity: 1;
+    -webkit-transition: opacity 0.7s;
+    -o-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
+
+img[data-src] {
+    opacity: 0.5;
 }
 
 .slick-track {
