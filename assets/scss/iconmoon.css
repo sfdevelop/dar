@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/fonts/icomoon.eot?mn7j01');
+	src: url('../fonts/fonts/icomoon.eot?mn7j01#iefix') format('embedded-opentype'),
+		url('../fonts/fonts/icomoon.ttf?mn7j01') format('truetype'),
+		url('../fonts/fonts/icomoon.woff?mn7j01') format('woff'),
+		url('../fonts/fonts/icomoon.svg?mn7j01#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-social-media:before {
+	content: "\e903";
+
+}
+
+.icon-instagram:before {
+	content: "\e904";
+
+}
+
+.icon-1051360:before {
+	content: "\e905";
+
+}
+
+.icon-Group-157:before {
+	content: "\e906";
+
+}
+
+.icon-next:before {
+	content: "\e901";
+	color: #5a598e;
+}
+
+.icon-prew:before {
+	content: "\e902";
+	color: #5a598e;
+}
+
+.icon-ukraina_gerb:before {
+	content: "\e900";
+	color: #5a598e;
+}
