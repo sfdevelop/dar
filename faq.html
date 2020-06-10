@@ -35,12 +35,273 @@
 </head>
 
 <body>
-	//= tpl/_mobilmenu.html
-	//= tpl/_menu.html
+	<div class="overlay ">
+	
+		<nav class="overlayMenu d-flex flex-column justify-content-between h90">
+			<div>
+	
+				<div class="line_white pb-3"><input type="text" name="serach_mobile" placeholder="Пошук"></div>
+	
+				<div class="w-100"></div>
+				<div class="d-block">
+					<ul role="menu">
+						<li><a href="usersdar.html" role="menuitem">Користування ДАР</a></li>
+						<li><a href="information.html" role="menuitem">Публічна інформація</a></li>
+						<li><a href="#" role="menuitem">Новини</a></li>
+						<li><a href="#" role="menuitem">Державна допомога</a></li>
+						<li><a href="#" role="menuitem">Підтримка</a></li>
+						<li><a href="faq.html" role="menuitem">Питання та відповіді</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="down pt-2">
+				<h6>Соціальні мережі </h6>
+				<div>
+					<span class="mr-2">
+						<a href=""><i class="icon-Group-157"></i></a>
+					</span>
+					<span class="mr-2">
+						<a href=""><i class="icon-1051360"></i></a>
+					</span>
+					<span class="mr-2">
+						<a href=""><i class="icon-instagram"></i></a>
+					</span>
+					<span class="mr-2">
+						<a href=""><i class="icon-social-media"></i></a>
+					</span>
+				</div>
+			</div>
+		</nav>
+	
+	</div>
+	<div class="container p-relative">
+		<div class="navBurger d-lg-none" role="navigation" id="navToggle"></div>
+	</div>
+	<div class="nav-top p-3">
+		<div class="container d-flex justify-content-md-between align-items-center ">
+			<a href="faq.html" class="d-none d-lg-inline">
+				<button class="btn-1">
+					Питання та відповіді
+				</button>
+			</a>
+			<a href="index.html">
+				<img data-src="assets/i/logo-top.png" alt="logo" class="img-fluent b-lazy logo">
+			</a>
+			<a href="" class="d-none d-lg-inline">
+				<button class="btn-2">
+					Увійти в ДАР
+				</button>
+			</a>
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0 d-none d-lg-block">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-md-between " id="navbarsExample01">
+				<ul class="navbar-nav">
+					<li class="nav-item active  py-4 px-2">
+						<a class="nav-link" href="usersdar.html">Користування ДАР</a>
+					</li>
+					<li class="nav-item py-4 px-2">
+						<a class="nav-link" href="information.html">Публічна інформація</a>
+					</li>
+					<li class="nav-item py-4 px-2">
+						<a class="nav-link " href="#">Новини</a>
+					</li>
+					<li class="nav-item py-4 px-2">
+						<a class="nav-link " href="#">Державна допомога</a>
+					</li>
+					<li class="nav-item py-4 px-2">
+						<a class="nav-link " href="#">Підтримка</a>
+					</li>
+				</ul>
+			</div>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control py-3" type="search" placeholder="Пошук" aria-label="Пошук">
+			</form>
+		</div>
+	</nav>
 
-	//= tpl/_faq.html
+	<div class="section my-5">
+		<div class="container">
+			<h1>Питання та відповіді</h1>
+	
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb px-0">
+					<li class="breadcrumb-item"><a href="#">Головна</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Назва розділу</li>
+				</ol>
+			</nav>
+	
+			<div class="mb-5">
+				<h4 class="p-2 beige">Загальні</h4>
+				<div class="line"></div>
+				<div class="accordion" id="accordionExample">
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+									1. Що таке Державний Аграрний Реєстр?
+								</button>
+							</h5>
+						</div>
+	
+						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+							<div class="card-body p-4">
+								<p>
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									2. Яке призначення ДАР?
+								</button>
+							</h5>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							<div class="card-body p-4">
+								<p>
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headfour">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									3. Чи потрібно платити за реєстрацію в ДАР?
+								</button>
+							</h5>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headfour" data-parent="#accordionExample">
+							<div class="card-body p-4">
+								<p>
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								</p>
+							</div>
+						</div>
+					</div>
+	
+	
+	
+	
+	
+				</div>
+			</div>
+	
+			<div class="mb-5">
+				<h4 class="p-2 beige">Земля</h4>
+				<div class="line"></div>
+				<div class="accordion" id="accordionExample2">
+					<div class="card">
+						<div class="card-header" id="head_one">
+							<h5 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#coll_one" aria-expanded="false" aria-controls="coll_one">
+									1. Як ДАР допоможе виправити помилки в ЗемКадастрі?
+								</button>
+							</h5>
+						</div>
+	
+						<div id="coll_one" class="collapse" aria-labelledby="head_one" data-parent="#accordionExample2">
+							<div class="card-body p-4">
+								<p>
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+							</div>
+						</div>
+					</div>
+	
+					<div class="card">
+						<div class="card-header" id="head_two">
+							<h5 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#coll_two" aria-expanded="false" aria-controls="coll_two">
+									2. Як ДАР допоможе зареєструвати ділянки без кадастрового номера?
+								</button>
+							</h5>
+						</div>
+	
+						<div id="coll_two" class="collapse" aria-labelledby="head_two" data-parent="#accordionExample2">
+							<div class="card-body p-4">
+								<p>
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+							</div>
+						</div>
+					</div>
+	
+					<div class="card">
+						<div class="card-header" id="head_three">
+							<h5 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#coll_three" aria-expanded="false" aria-controls="coll_three">
+									3. Чи можу я отримати інформацію про НГО земельних ділянок?
+								</button>
+							</h5>
+						</div>
+	
+						<div id="coll_three" class="collapse" aria-labelledby="head_three" data-parent="#accordionExample2">
+							<div class="card-body p-4">
+								<p>
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+							</div>
+						</div>
+					</div>
+	
+	
+				</div>
+			</div>
+	
+	
+	
+	
+		</div>
+	</div>
 
-	//= tpl/_footer.html
+	<footer class="mt-5 py-5">
+		<div class="container">
+			<div class="d-flex justify-content-between align-items-center align-items-lg-start flex-column flex-lg-row">
+				<img data-src="assets/i/logo-footer.png" alt="logo footer" class="img-fluid logo-footer">
+				<ul class="mt-2">
+					<li><a href="">Користування ДАР</a></li>
+					<li><a href="">Новини</a></li>
+				</ul>
+				<ul class="mt-2">
+					<li><a href="">Публічна інформація</a></li>
+					<li><a href="">Підтримка</a></li>
+				</ul>
+				<ul class="mt-2">
+					<li><a href="">Державна допомога</a></li>
+				</ul>
+				<ul class="mt-2 ">
+					<li>Соціальні мережі </li>
+					<li class="pt-3">
+						<span class="mr-2">
+							<a href=""><i class="icon-Group-157"></i></a>
+						</span>
+						<span class="mr-2">
+							<a href=""><i class="icon-1051360"></i></a>
+						</span>
+						<span class="mr-2">
+							<a href=""><i class="icon-instagram"></i></a>
+						</span>
+						<span class="mr-2">
+							<a href=""><i class="icon-social-media"></i></a>
+						</span>
+					</li>
+				</ul>
+			</div>
+			<div class="footer_block pt-2 mt-3">
+				<p>Проект реалізовано за підтримки</p>
+			</div>
+			<div class="d-flex justify-content-between pt-3 c-white">
+				<p>© 2020. Всі права захищені.</p>
+				<p>Сайт розроблено <a href="http://sfdevelop.com" target="_blank">SFdevelop</a></p>
+			</div>
+		</div>
+	
+	</footer>
 
 
 	<script src="assets/js/main.js"></script>

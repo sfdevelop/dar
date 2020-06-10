@@ -35,13 +35,268 @@
 </head>
 
 <body>
-	//= tpl/_mobilmenu.html
+	<div class="overlay ">
+	
+		<nav class="overlayMenu d-flex flex-column justify-content-between h90">
+			<div>
+	
+				<div class="line_white pb-3"><input type="text" name="serach_mobile" placeholder="Пошук"></div>
+	
+				<div class="w-100"></div>
+				<div class="d-block">
+					<ul role="menu">
+						<li><a href="usersdar.html" role="menuitem">Користування ДАР</a></li>
+						<li><a href="information.html" role="menuitem">Публічна інформація</a></li>
+						<li><a href="#" role="menuitem">Новини</a></li>
+						<li><a href="#" role="menuitem">Державна допомога</a></li>
+						<li><a href="#" role="menuitem">Підтримка</a></li>
+						<li><a href="faq.html" role="menuitem">Питання та відповіді</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="down pt-2">
+				<h6>Соціальні мережі </h6>
+				<div>
+					<span class="mr-2">
+						<a href=""><i class="icon-Group-157"></i></a>
+					</span>
+					<span class="mr-2">
+						<a href=""><i class="icon-1051360"></i></a>
+					</span>
+					<span class="mr-2">
+						<a href=""><i class="icon-instagram"></i></a>
+					</span>
+					<span class="mr-2">
+						<a href=""><i class="icon-social-media"></i></a>
+					</span>
+				</div>
+			</div>
+		</nav>
+	
+	</div>
+	<div class="container p-relative">
+		<div class="navBurger d-lg-none" role="navigation" id="navToggle"></div>
+	</div>
 
-	//= tpl/_menu.html
-	//= tpl/_header.html
-	//= tpl/_main.html
-	//= tpl/_can.html
-	//= tpl/_footer.html
+	<div class="nav-top p-3">
+		<div class="container d-flex justify-content-md-between align-items-center ">
+			<a href="faq.html" class="d-none d-lg-inline">
+				<button class="btn-1">
+					Питання та відповіді
+				</button>
+			</a>
+			<a href="index.html">
+				<img data-src="assets/i/logo-top.png" alt="logo" class="img-fluent b-lazy logo">
+			</a>
+			<a href="" class="d-none d-lg-inline">
+				<button class="btn-2">
+					Увійти в ДАР
+				</button>
+			</a>
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0 d-none d-lg-block">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-md-between " id="navbarsExample01">
+				<ul class="navbar-nav">
+					<li class="nav-item active  py-4 px-2">
+						<a class="nav-link" href="usersdar.html">Користування ДАР</a>
+					</li>
+					<li class="nav-item py-4 px-2">
+						<a class="nav-link" href="information.html">Публічна інформація</a>
+					</li>
+					<li class="nav-item py-4 px-2">
+						<a class="nav-link " href="#">Новини</a>
+					</li>
+					<li class="nav-item py-4 px-2">
+						<a class="nav-link " href="#">Державна допомога</a>
+					</li>
+					<li class="nav-item py-4 px-2">
+						<a class="nav-link " href="#">Підтримка</a>
+					</li>
+				</ul>
+			</div>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control py-3" type="search" placeholder="Пошук" aria-label="Пошук">
+			</form>
+		</div>
+	</nav>
+	<header class="d-flex justify-contant-center align-items-center b-lazy b">
+		<div class="container">
+			<h1 class="display-1 mb-4">Державний <br>аграрний реєстр</h1>
+			<p>Електронний майданчик для виробників <br> сільськогосподарської продукції</p>
+			<a href=""><button class="btn-2 mt-4 py-4">Зареєструватися</button></a>
+		</div>
+	</header>
+	<div class="main mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-3 order-2 order-lg-1 mb-3 mb-lg-0">
+					<h4 class="p-2">Корисна інформація</h4>
+					<div class="line"></div>
+					<div class="card">
+						<img class="b-lazy card-img-top" src="assets/i/loading.gif" data-src="assets/i/m-01.png" alt="Посівна 2020: більшість регіонів завершили весняно-польові роботи ">
+						<div class="card-body">
+	
+							<h5 class="card-title">Посівна 2020: більшість регіонів завершили весняно-польові роботи </h5>
+							<a href="#">Читати далі</a>
+						</div>
+					</div>
+					<h4 class="p-2 beige">Опитування</h4>
+					<div class="line"></div>
+					<h5 class="mb-4">Оцініть ефективність наявної системи держпідтримки агровиробників?</h5>
+	
+					<div class="form-check ">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+						<label class="form-check-label" for="exampleRadios1">
+							Ефективна
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						<label class="form-check-label" for="exampleRadios2">
+							50/50
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+						<label class="form-check-label" for="exampleRadios3">
+							Неефективна
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+						<label class="form-check-label" for="exampleRadios4">
+							Важко сказати
+						</label>
+					</div>
+					<a href="#">Проголосувати</a>
+				</div>
+	
+				<div class="col-12 col-lg-6 p-lg-0  order-1 order-lg-2 mb-3 mb-lg-0">
+					<div class="main__center d-flex align-items-end p-0 b-lazy  ">
+						<div class="s-box p-4 ">
+							<a href="">Що таке ДАР?</a><br>
+							<a href="">Як зареєструватися в ДАР?</a>
+						</div>
+					</div>
+				</div>
+	
+				<div class="col-12 col-lg-3 order-3">
+					<h4 class="p-2">Актуальне</h4>
+					<div class="line"></div>
+					<div class="card">
+						<img class="card-img-top b-lazy" src="assets/i/loading.gif" data-src="assets/i/m-02.png" alt="Як зареєструватися в ДАР?">
+						<div class="card-body">
+							<h5 class="card-title">Як зареєструватися в ДАР?</h5>
+							<a href="#">Читати далі</a>
+						</div>
+					</div>
+					<h4 class="p-2 beige">Звернення/Консультація</h4>
+					<div class="line"></div>
+					<div class="card">
+						<img class="card-img-top b-lazy" src="assets/i/loading.gif" data-src="assets/i/m-03.png" alt="Консультація  для сільськогосподарських виробників ">
+						<div class="card-body">
+							<h5 class="card-title">Консультація для сільськогосподарських виробників </h5>
+							<a href="#">Отримати консультацію</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="can mt-5">
+		<div class="container">
+	
+			<h4 class="p-2">Що можна в ДАР</h4>
+			<div class="line"></div>
+	
+			<div class="slider">
+				<div class="p-1 m-0 d-flex flex-fill">
+					<div class="slider__box p-4 d-flex flex-column flex-fill">
+						<i class="icon-ukraina_gerb"></i>
+						<h5 class="mt-2">Змінити особисті дані</h5>
+						<a href="">Детальніше</a>
+					</div>
+				</div>
+				<div class="p-1 m-0 d-flex flex-fill ">
+					<div class="slider__box p-4 d-flex flex-column flex-fill">
+						<i class="icon-ukraina_gerb"></i>
+						<h5 class="mt-2">Змінити особисті дані</h5>
+						<a href="">Детальніше</a>
+					</div>
+				</div>
+				<div class="p-1 m-0 d-flex  flex-fill">
+					<div class="slider__box p-4 d-flex flex-column flex-fill">
+						<i class="icon-ukraina_gerb"></i>
+						<h5 class="mt-2">Змінити особисті даніЗмінити особисті даніЗмінити особисті даніЗмінити особисті даніЗмінити особисті дані</h5>
+						<a href="">Детальніше</a>
+					</div>
+				</div>
+				<div class="p-1 m-0 d-flex  flex-fill">
+					<div class="slider__box p-4 d-flex flex-column flex-fill">
+						<i class="icon-ukraina_gerb"></i>
+						<h5 class="mt-2">Змінити особисті дані</h5>
+						<a href="">Детальніше</a>
+					</div>
+				</div>
+			</div>
+			<div class="text-center mt-5">
+				<a href="">
+					<button class="btn-1 mb-1">Увійти в кабінет</button>
+				</a>
+				<a href="">
+					<button class="btn-2 mb-1">Зареєструватися</button>
+				</a>
+			</div>
+		</div>
+	</div>
+	<footer class="mt-5 py-5">
+		<div class="container">
+			<div class="d-flex justify-content-between align-items-center align-items-lg-start flex-column flex-lg-row">
+				<img data-src="assets/i/logo-footer.png" alt="logo footer" class="img-fluid logo-footer">
+				<ul class="mt-2">
+					<li><a href="">Користування ДАР</a></li>
+					<li><a href="">Новини</a></li>
+				</ul>
+				<ul class="mt-2">
+					<li><a href="">Публічна інформація</a></li>
+					<li><a href="">Підтримка</a></li>
+				</ul>
+				<ul class="mt-2">
+					<li><a href="">Державна допомога</a></li>
+				</ul>
+				<ul class="mt-2 ">
+					<li>Соціальні мережі </li>
+					<li class="pt-3">
+						<span class="mr-2">
+							<a href=""><i class="icon-Group-157"></i></a>
+						</span>
+						<span class="mr-2">
+							<a href=""><i class="icon-1051360"></i></a>
+						</span>
+						<span class="mr-2">
+							<a href=""><i class="icon-instagram"></i></a>
+						</span>
+						<span class="mr-2">
+							<a href=""><i class="icon-social-media"></i></a>
+						</span>
+					</li>
+				</ul>
+			</div>
+			<div class="footer_block pt-2 mt-3">
+				<p>Проект реалізовано за підтримки</p>
+			</div>
+			<div class="d-flex justify-content-between pt-3 c-white">
+				<p>© 2020. Всі права захищені.</p>
+				<p>Сайт розроблено <a href="http://sfdevelop.com" target="_blank">SFdevelop</a></p>
+			</div>
+		</div>
+	
+	</footer>
 
 
 	<script src="assets/js/main.js"></script>
