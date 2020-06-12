@@ -8875,9 +8875,24 @@ h4 span {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-adres:before {
+    content: "\e915";
+    color: #5a598e;
+}
+
+.icon-mail:before {
+    content: "\e916";
+    color: #5a598e;
+}
+
+.icon-phone:before {
+    content: "\e917";
+    color: #5a598e;
+}
+
 .icon-calendar:before {
     content: "\e914";
-  /*	color: #ccc;*/
+    color: #ccc;
 }
 
 .icon-excel .path1:before {
@@ -9024,6 +9039,10 @@ h4 span {
 }
 
 @media (max-width: 1000px) {
+    .section h1 {
+        line-height: 1.2;
+    }
+
     header {
         background-image: url(../i/small-01.jpg) !important;
     }
@@ -9454,8 +9473,8 @@ footer .footer_block {
     border-bottom: 1px solid rgba(255, 255, 255, 0.57);
 }
 
-footer .c-white {
-    color: #fff;
+.c-white {
+    color: #fff !important;
 }
 
 .down {
@@ -9672,4 +9691,48 @@ footer .c-white {
 
 .news .down {
     margin: auto 0 0 0;
+}
+
+.help__box {
+    border: 1px solid #ccc;
+    -webkit-transition: .1s ease-out;
+    -o-transition: .1s ease-out;
+    transition: .1s ease-out;
+    -webkit-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    height: 100%;
+}
+
+.help__box:hover {
+    background: rgba(90, 89, 142, 0.1);
+    border: 1px solid #5a598e;
+}
+
+.help__box i {
+    font-size: 45px;
+}
+
+.help__box .desc {
+    width: 100%;
+}
+
+.help__box .desc a {
+    margin: auto 0 0 0;
+}
+
+.contacts__box {
+    background: rgba(90, 89, 142, 0.1);
+}
+
+.contacts__box_contact ul {
+    list-style: none;
+}
+
+.contacts__box_contact i {
+    font-size: 35px;
+}
+
+.contacts__box_contact p {
+    margin-bottom: 0px;
 }
