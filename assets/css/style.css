@@ -10002,6 +10002,10 @@ footer .footer_block {
     justify-content: space-between;
 }
 
+.accordion .btn-link:hover {
+    text-decoration: none;
+}
+
 .blue {
     background: blue;
     margin: 10px;
@@ -10018,6 +10022,7 @@ footer .footer_block {
     -webkit-transition-delay: 0.1s;
     -o-transition-delay: 0.1s;
     transition-delay: 0.1s;
+    text-decoration: none !important;
 }
 
 .accordion .btn-link[aria-expanded="true"]::after {
