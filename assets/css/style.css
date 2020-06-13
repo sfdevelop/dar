@@ -10000,6 +10000,10 @@ footer .footer_block {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: left;
+    color: #000;
 }
 
 .accordion .btn-link:hover {
