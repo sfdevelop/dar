@@ -10014,6 +10014,10 @@ footer .social a:hover {
     text-decoration: none;
 }
 
+.accordion .btn-link:focus {
+    text-decoration: none;
+}
+
 .blue {
     background: blue;
     margin: 10px;
