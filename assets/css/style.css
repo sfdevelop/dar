@@ -9191,6 +9191,7 @@ h4 span {
     text-transform: uppercase;
     border-left: 3px solid #ffd9a6;
     padding-left: 15px;
+    line-height: 1.2;
 }
 
 .pagination a {
