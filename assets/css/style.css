@@ -9156,8 +9156,9 @@ h4 {
     background: #5A598E;
     color: #ffd9a6;
     width: auto;
-    font-size: calc(.7vw + .5rem);
+    font-size: calc(.7vw + .3rem);
     display: inline-block;
+    text-transform: uppercase;
 }
 
 h4 span {
@@ -9599,6 +9600,21 @@ h4 span {
     .navbar a {
         font-size: 13.5px !important;
     }
+
+    .footer_block span {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+    .footer_block a {
+        font-size: 13.5px !important;
+    }
+
+    footer a,
+  footer li,
+  footer span {
+        font-size: 13.5px !important;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -9673,6 +9689,10 @@ h4 span {
     .registration .baige,
   .registration .round {
         padding: 40px;
+    }
+
+    .footer_block {
+        text-align: center;
     }
 }
 
@@ -10010,7 +10030,7 @@ header .btn-2 {
 }
 
 footer {
-    background: #000;
+    background: #5A598E;
 }
 
 footer .logo-footer {
@@ -10044,12 +10064,21 @@ footer .footer_block {
     border-bottom: 1px solid rgba(255, 255, 255, 0.57);
 }
 
+footer .footer_block img {
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
 footer .social a:hover {
     text-decoration: none;
 }
 
 .c-white {
     color: #fff !important;
+}
+
+.c-white a {
+    color: #fff;
 }
 
 .down {
@@ -10323,6 +10352,21 @@ footer .social a:hover {
 
 .contacts__box_contact p {
     margin-bottom: 0px;
+}
+
+.img-contacts {
+    max-width: 150px;
+}
+
+.items_contacts .round {
+    width: 30px;
+    height: 30px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .feed ul {
