@@ -10369,6 +10369,23 @@ footer .social a:hover {
     align-items: center;
 }
 
+.items_contacts .registration__li_box .round {
+    background: #ffd9a6 !important;
+    display: inline-table;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.items_contacts .registration__li_box {
+    text-transform: none;
+    font-weight: 400;
+}
+
+.items_contacts p {
+    margin: 0;
+    padding-left: 20px;
+}
+
 .feed ul {
     list-style: none;
     background: #5A598E;
