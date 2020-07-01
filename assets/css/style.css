@@ -10359,6 +10359,8 @@ footer .social a:hover {
 }
 
 .items_contacts .round {
+    padding-left: 15px;
+    padding-right: 15px;
     width: 30px;
     height: 30px;
     -webkit-box-pack: center;
