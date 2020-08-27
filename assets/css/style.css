@@ -9615,6 +9615,10 @@ h4 span {
   footer span {
         font-size: 13.5px !important;
     }
+
+    .contacts__box_contact a {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -9728,6 +9732,10 @@ h4 span {
 
     .logo {
         width: 65vw;
+    }
+
+    .contacts__box_contact a {
+        font-size: 13px !important;
     }
 }
 
